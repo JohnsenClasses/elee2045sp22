@@ -36,3 +36,10 @@ while True:
         file_numbers.append(num**2)
 print(file_numbers)
 file_handle.close() #allows the file to be opened again later
+
+while True:
+    user_input = input("Guess a number: ")
+    if user_input == 'q': 
+        print("Goodbyte")
+        break
+    print("You guessed: ", user_input)
