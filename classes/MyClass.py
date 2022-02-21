@@ -1,5 +1,5 @@
 class MyClass:
     
-    def __init__(self):
-        self.a_list = [1,2,3]
+    def __init__(self,data,data2=[]):
+        self.a_list = data
         pass
